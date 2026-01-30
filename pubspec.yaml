@@ -1,0 +1,57 @@
+name: cocktail_compass
+description: A Flutter app to explore cocktail recipes and find nearby stores
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # HTTP requests
+  http: ^1.1.0
+
+  # Local storage
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+
+  # Maps and Location
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+  # UI
+  cached_network_image: ^3.3.0
+
+  # Icons
+  cupertino_icons: ^1.0.2
+  google_generative_ai: ^0.4.7
+
+  # Ads
+  google_mobile_ads: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/compass.png"
+  adaptive_icon_background: "#1A1A2E"
+  adaptive_icon_foreground: "assets/icon/compass.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
