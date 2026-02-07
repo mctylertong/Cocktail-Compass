@@ -162,7 +162,7 @@ class _MapScreenState extends State<MapScreen> {
                       ),
                       Positioned(
                         bottom: 30,
-                        right: 30,
+                        left: 30,
                         child: FloatingActionButton(
                           onPressed: () => _recenterMap(viewModel),
                           backgroundColor: AppTheme.primaryGold,
